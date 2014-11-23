@@ -1,8 +1,22 @@
 
 	{
+		"sling:resourceType":"/apps/knf/list",
+		"title":"Index",
 		
 		"Noodle_Soup":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Noodle Soup - Pork or Chicken",
+			"categories":[
+			
+				"Soup"
+			],
+			"serves":"2-3",
+			"time":"1 hour",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Noodle_Soup_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 batch Egg Noodles"
@@ -70,7 +84,18 @@
 		}
 	, 
 		"Roasted_Squash_and_Garlic_Soup":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Roasted Squash and Garlic Soup",
+			"categories":[
+			
+				"Soup"
+			],
+			"serves":"6",
+			"time":"1 1/2 hours",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 butternut squash "
@@ -124,7 +149,18 @@
 		}
 	, 
 		"Egg_Noodles":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Egg Noodles",
+			"categories":[
+			
+			],
+			"serves":"2",
+			"time":"1 hour",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Egg_Noodles_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"3 parts durum semolina flour"
@@ -164,7 +200,18 @@
 		}
 	, 
 		"Mrs_Paces_Pie_Dough":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Mrs Paces Pie Dough",
+			"categories":[
+			
+			],
+			"serves":"",
+			"time":"",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Mrs_Paces_Pie_Dough_files/DSC_0011.jpg"
+			],
+
 			"ingredients":[
 				
 		"5 cups all purpose flour"
@@ -200,7 +247,18 @@
 		}
 	, 
 		"Apple_Pie":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Apple Pie",
+			"categories":[
+			
+				"Dessert"
+			],
+			"serves":"",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"6 large apples"
@@ -220,7 +278,7 @@
 			],
 			"directions":[
 				
-		"Roll out pie dough and place in 9 inch pie plate - refrigerate remaining dough for top"
+		"Roll out pie dough and place in 9” pie plate - refrigerate remaining dough for top"
 	, 
 		"Peel and slice apples"
 	, 
@@ -248,7 +306,18 @@
 		}
 	, 
 		"Asian_Pear_Slaw":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Asian Pear Slaw",
+			"categories":[
+			
+				"Salad"
+			],
+			"serves":"4-6",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"2 celery ribs"
@@ -284,7 +353,18 @@
 		}
 	, 
 		"Banana_Bread":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Banana Bread",
+			"categories":[
+			
+				"Baking"
+			],
+			"serves":"1 loaf",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"5  bananas (mashed)"
@@ -326,7 +406,18 @@
 		}
 	, 
 		"BBQ_Whole_Fish":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"BBQ Whole Fish",
+			"categories":[
+			
+			],
+			"serves":"2",
+			"time":"1 hour",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/BBQ_Whole_Fish_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 1/2 lb bream"
@@ -376,7 +467,18 @@
 		}
 	, 
 		"Bombay_Curry":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Bombay Curry",
+			"categories":[
+			
+			],
+			"serves":"4-6",
+			"time":"1 hour 45 min",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Bombay_Curry_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 tbsp ghee"
@@ -424,7 +526,17 @@
 		}
 	, 
 		"Noodles_with_Beef_and_Asian_Pear":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Bean-Thread Noodles with Beef & Asian Pear",
+			"categories":[
+			
+			],
+			"serves":"4",
+			"time":"30 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1/4 lb bean-thread noodles"
@@ -476,7 +588,17 @@
 		}
 	, 
 		"Blueberry_French_Toast":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Blueberry French Toast",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"Overnight",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"24 inch baguette"
@@ -538,7 +660,18 @@
 		}
 	, 
 		"Chili_Powder":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Chili Powder",
+			"categories":[
+			
+			],
+			"serves":"1 cup",
+			"time":"",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Chili_Powder_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"4 Ancho chilies"
@@ -580,7 +713,19 @@
 		}
 	, 
 		"Ketchup":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Ketchup",
+			"categories":[
+			
+				"Sauces"
+			],
+			"serves":"2 quarts",
+			"time":"2 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Ketchup_files/DSC_0021.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 tbsp olive oil"
@@ -634,7 +779,18 @@
 		}
 	, 
 		"BBQ_Sauce":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"BBQ Sauce",
+			"categories":[
+			
+			],
+			"serves":"",
+			"time":"2 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/BBQ_Sauce_files/DSC_0036.jpg"
+			],
+
 			"ingredients":[
 				
 		"2 cups Ketchup"
@@ -664,7 +820,18 @@
 		}
 	, 
 		"BBQ_Pork_Ribs":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"BBQ Pork Ribs",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"4 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/BBQ_Pork_Ribs_files/DSC_0030.jpg"
+			],
+
 			"ingredients":[
 				
 		"3 racks back ribs"
@@ -704,13 +871,23 @@
 	, 
 		"Depending on the heat and the thickness of the ribs let bbq for at least 2 hours. "
 	, 
-		"Just before you are ready to eat, raise the heat to high and brown the ribs on both sides. Add The BBQ Sauce and watch constantly to ensure that they don���t burn."
+		"Just before you are ready to eat, raise the heat to high and brown the ribs on both sides. Add The BBQ Sauce and watch constantly to ensure that they don’t burn."
 	
 			]
 		}
 	, 
 		"Really_Really_Good_Curry_Powder":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Ceylon Curry Powder (aka Really, Really Good Curry Powder)",
+			"categories":[
+			
+			],
+			"serves":"1 cup",
+			"time":"20 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"6 tbsp coriander seeds"
@@ -744,7 +921,19 @@
 		}
 	, 
 		"Chocolate_Truffle_Cookies":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Chocolate Truffle Cookies",
+			"categories":[
+			
+				"Dessert", 
+				"Baking"
+			],
+			"serves":"3-4 dozen cookies",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"4 oz unsweetened chocolate chopped "
@@ -780,13 +969,25 @@
 	, 
 		"Roll heaping teaspoons of dough into 1 inch balls with dampened hands and arrange 2 inches apart on ungreased baking sheets. (important that the cookies are a bit wet and glossy from the water on your hands when you are shaping them)"
 	, 
-		"Bake in batches in middle of oven until puffed and set, about 10 minutes (cookies will be soft in the centre). Transfer to racks to cool. (the time is pretty important when baking the cookies���..don���t over bake or they become little stones!)"
+		"Bake in batches in middle of oven until puffed and set, about 10 minutes (cookies will be soft in the centre). Transfer to racks to cool. (the time is pretty important when baking the cookies…..don’t over bake or they become little stones!)"
 	
 			]
 		}
 	, 
 		"christmas_cake":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Christmas Cake",
+			"categories":[
+			
+				"Baking", 
+				"Dessert"
+			],
+			"serves":"",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"14oz (400g) Sultanas"
@@ -850,7 +1051,7 @@
 	, 
 		"When thoroughly mixed stir in the fruits and brandy, grated orange and lemon rind and syrup or treacle. "
 	, 
-		"Place cake mixture in a well-greased cake tin (8 inch round or 7 inch square and preferably     lined with greaseproof paper)."
+		"Place cake mixture in a well-greased cake tin (8” round or 7” square and preferably     lined with greaseproof paper)."
 	, 
 		"Bake at 275F (140C) on a low shelf for about 4 hours."
 	, 
@@ -868,13 +1069,24 @@
 	, 
 		"Beat in the lemon juice and continue to beat for about 10 minutes until the icing is very white and smooth. Beat in the remaining sugar and lastly add the glycerine to prevent the icing becoming too hard.   "
 	, 
-		"Cover the almond pasted cake with the icing. Rather than trying to get the icing very smooth I usually go for the much easier ���snow scene��� effect, lifting the icing in small even peaks with the tip of a knife. I then add a selection of cake decorations e.g. pine trees, holly, etc."
+		"Cover the almond pasted cake with the icing. Rather than trying to get the icing very smooth I usually go for the much easier “snow scene” effect, lifting the icing in small even peaks with the tip of a knife. I then add a selection of cake decorations e.g. pine trees, holly, etc."
 	
 			]
 		}
 	, 
 		"Croissant":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Croissant",
+			"categories":[
+			
+			],
+			"serves":"12-14",
+			"time":"Overnight + 4 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Croissant_files/DSC_0029.jpg"
+			],
+
 			"ingredients":[
 				
 		"4 tsp yeast"
@@ -964,7 +1176,18 @@
 		}
 	, 
 		"Crepes":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Crepes",
+			"categories":[
+			
+			],
+			"serves":"6-8 crepes",
+			"time":"",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Crepes_files/DSC_0026.jpg"
+			],
+
 			"ingredients":[
 				
 		"2 parts eggs"
@@ -1012,7 +1235,19 @@
 		}
 	, 
 		"Chocoloate_Raspberry_Cake":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Chocolate Raspberry Cake",
+			"categories":[
+			
+				"Baking", 
+				"Dessert"
+			],
+			"serves":"",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"3 ounces bittersweet chocolate"
@@ -1050,7 +1285,7 @@
 				
 		"Preheat oven to 350 degrees"
 	, 
-		"Generously butter a 9inch X 2inch round cake pan"
+		"Generously butter a 9” X 2” round cake pan"
 	, 
 		"Chop chocolate"
 	, 
@@ -1082,7 +1317,18 @@
 		}
 	, 
 		"Dhal":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Dhal",
+			"categories":[
+			
+			],
+			"serves":"4",
+			"time":"1 hour",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Dhal_files/DSC_0018.jpg"
+			],
+
 			"ingredients":[
 				
 		"61/2 oz red lentils"
@@ -1128,7 +1374,18 @@
 		}
 	, 
 		"Flax_Muffins":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Flax Muffins",
+			"categories":[
+			
+			],
+			"serves":"10",
+			"time":"1 hour",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Flax_Muffins_files/DSC_0030.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 1/2 cup ground flaxseed"
@@ -1182,7 +1439,18 @@
 		}
 	, 
 		"Guacamole_Salad":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Guacamole Salad",
+			"categories":[
+			
+				"Salad"
+			],
+			"serves":"4",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"4 plum tomatoes"
@@ -1242,7 +1510,18 @@
 		}
 	, 
 		"Hazelnut_Crescents":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Hazelnut Crescents",
+			"categories":[
+			
+				"Dessert"
+			],
+			"serves":"2-3 dozen cookies",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 cup butter"
@@ -1284,7 +1563,18 @@
 		}
 	, 
 		"Vanilla_Ice_Cream":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Vanilla Ice Cream",
+			"categories":[
+			
+				"Dessert"
+			],
+			"serves":"",
+			"time":"2 hours + freezing time",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"500ml cream"
@@ -1298,7 +1588,7 @@
 			],
 			"directions":[
 				
-		"Pour the cream into your widest pan and add to it the vanilla pod split lengthwise. Heat, and when it is about to come to the boil, but isn���t boiling, remove from the heat and leave to infuse for 20-30 minutes."
+		"Pour the cream into your widest pan and add to it the vanilla pod split lengthwise. Heat, and when it’s about to come to the boil, but isn’t boiling, remove from the heat and leave to infuse for 20-30 minutes."
 	, 
 		"Whisk the egg yolks with the sugar until thick and creamy and then strain in the cream. Keep beating."
 	, 
@@ -1312,7 +1602,18 @@
 		}
 	, 
 		"Chocolate_Ice_Cream":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Chocolate Ice Cream",
+			"categories":[
+			
+				"Dessert"
+			],
+			"serves":"",
+			"time":"2 hours + freezing time",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"500ml whole milk"
@@ -1354,7 +1655,17 @@
 		}
 	, 
 		"Irish_Stew":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Irish Stew",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"4 hours",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1/2 cup pearl barley "
@@ -1418,7 +1729,18 @@
 		}
 	, 
 		"Kung_Po_Chicken":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Kung Po Chicken",
+			"categories":[
+			
+			],
+			"serves":"2",
+			"time":"1 1/2 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Kung_Po_Chicken_files/DSC_0004.jpg"
+			],
+
 			"ingredients":[
 				
 		"1 lb chicken thighs "
@@ -1474,7 +1796,18 @@
 		}
 	, 
 		"Lamb_Shanks":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Lamb Shanks",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"4 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Lamb_Shanks_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"2 tsp ground cumin"
@@ -1542,7 +1875,18 @@
 		}
 	, 
 		"Nuts_and_Bolts":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Nuts & Bolts",
+			"categories":[
+			
+			],
+			"serves":"",
+			"time":"",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Nuts_and_Bolts_files/DSC_0069.jpg"
+			],
+
 			"ingredients":[
 				
 		"4 cups Honeynut Cherrios"
@@ -1584,7 +1928,18 @@
 		}
 	, 
 		"Poppy_Seed_Fish":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Poppy Seed Fish",
+			"categories":[
+			
+			],
+			"serves":"4",
+			"time":"20 minutes",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Poppy_Seed_Fish_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"4 tilapia filets"
@@ -1630,7 +1985,17 @@
 		}
 	, 
 		"Pad_Thai":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Pad Thai",
+			"categories":[
+			
+			],
+			"serves":"2",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"200 gr rice sticks"
@@ -1700,7 +2065,18 @@
 		}
 	, 
 		"Pizza_Dough":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Pizza",
+			"categories":[
+			
+			],
+			"serves":"1 pizza",
+			"time":"30 minutes + 2 hours rising",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Pizza_Dough_files/DSC_0014.jpg"
+			],
+
 			"ingredients":[
 				
 		"300g flour"
@@ -1740,7 +2116,18 @@
 		}
 	, 
 		"Radish_Salad":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Radish Salad",
+			"categories":[
+			
+				"Salad"
+			],
+			"serves":"4-6",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"4 small grapefruit"
@@ -1772,7 +2159,17 @@
 		}
 	, 
 		"Rabbit_Stew":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Rabbit Stew (for George)",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"2 hours",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"4 tbsps clarified butter"
@@ -1816,17 +2213,27 @@
 	, 
 		"Remove the leaves from the bunch of sage and drop them, a few at a time, into the hot oil. The leaves will immediately start to bubble around the edges."
 	, 
-		"Cook them for 30 seconds or until bright green and crispy. Make sure you don't overheat the oil or cook the leaves too long or they will turn black and taste burnt."
+		"Cook them for 30 seconds or until bright green and crispy. Make sure you don’t overheat the oil or cook the leaves too long or they will turn black and taste burnt."
 	, 
 		"Drain the leaves on paper towels and sprinkle with salt."
 	, 
-		"Take the cooked rabbit and mushrooms out of the saucepan and keep warm. Discard the bouquet garni. Remove the saucepan from the heat, mix together the cream and egg yolks and stir quickly into the stock. Return to a very low het and cook, stirring, for about 5 minutes to thicken slightly (don���t let the sauce boil or the eggs will scramble) Season with salt and pepper. "
+		"Take the cooked rabbit and mushrooms out of the saucepan and keep warm. Discard the bouquet garni. Remove the saucepan from the heat, mix together the cream and egg yolks and stir quickly into the stock. Return to a very low het and cook, stirring, for about 5 minutes to thicken slightly (don’t let the sauce boil or the eggs will scramble) Season with salt and pepper. "
 	
 			]
 		}
 	, 
 		"Roasted_Vegetables":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Roasted Vegetables",
+			"categories":[
+			
+			],
+			"serves":"4-6",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 lb beets"
@@ -1862,7 +2269,17 @@
 		}
 	, 
 		"Roasted_Cauliflower":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Roasted Cauliflower",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"1 hour",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 cauliflower"
@@ -1928,7 +2345,17 @@
 		}
 	, 
 		"Roast_Beef":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Roast Beef",
+			"categories":[
+			
+			],
+			"serves":"8",
+			"time":"2 hours",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"6 lbs prime rib beef"
@@ -1972,7 +2399,18 @@
 		}
 	, 
 		"Roasted_Potato_and_Bean_Salad":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Roasted Potato & Green Bean Salad",
+			"categories":[
+			
+				"Salad"
+			],
+			"serves":"8",
+			"time":"45 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"3lbs small red potatoes"
@@ -2032,7 +2470,19 @@
 		}
 	, 
 		"Sarahs_Shortbread":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Sarah's Shortbread",
+			"categories":[
+			
+				"Dessert"
+			],
+			"serves":"3-4 dozen cookies",
+			"time":"",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Sarahs_Shortbread_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"1/2 lb butter"
@@ -2066,7 +2516,19 @@
 		}
 	, 
 		"Shack_Cookies":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Shack Cookies",
+			"categories":[
+			
+				"Dessert", 
+				"Baking"
+			],
+			"serves":"3-4 dozen cookies",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1/2 cup butter"
@@ -2118,7 +2580,18 @@
 		}
 	, 
 		"Shellfish_in_Saffron_Broth":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Shellfish in Saffron Broth",
+			"categories":[
+			
+				"Soup"
+			],
+			"serves":"2",
+			"time":"45 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 dozen small clams"
@@ -2178,7 +2651,18 @@
 		}
 	, 
 		"Spinach,_Arugula_and_Bacon_Salad":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Spinach, Arugula & Bacon Salad",
+			"categories":[
+			
+				"Salad"
+			],
+			"serves":"4",
+			"time":"1 hours",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"2 cups spinach"
@@ -2222,7 +2706,18 @@
 		}
 	, 
 		"Tortillas_de_Harina":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Tortillas",
+			"categories":[
+			
+			],
+			"serves":"6",
+			"time":"1 hours",
+			"pictures":[
+			
+				"http://www.johnpurchase.com/knifeandfork/Tortillas_de_Harina_files/shapeimage_1.jpg"
+			],
+
 			"ingredients":[
 				
 		"2 cups flour "
@@ -2266,7 +2761,17 @@
 		}
 	, 
 		"Yorkshire_Pudding":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Yorkshire Pudding",
+			"categories":[
+			
+			],
+			"serves":"8",
+			"time":"30 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"3 eggs - room temperature"
@@ -2288,7 +2793,7 @@
 	, 
 		"Heat oven to a very hot 450 degrees"
 	, 
-		"Using a muffin tin, add 1/4��� of oil to each portion"
+		"Using a muffin tin, add 1/4” of oil to each portion"
 	, 
 		"Heat in oven until very, very hot - smoking 15 min"
 	, 
@@ -2302,7 +2807,19 @@
 		}
 	, 
 		"Basic_Bread":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Basic Bread",
+			"categories":[
+			
+				"Baking"
+			],
+			"serves":"one large loaf for 450g of flour",
+			"time":"30 minutes prep + 2 hours rising + 25 minutes baking",
+			"pictures":[
+			
+				"http://farm7.staticflickr.com/6091/6365732455_7800013a62.jpg"
+			],
+
 			"ingredients":[
 				
 		"100 parts all-purpose (bread) flour"
@@ -2340,7 +2857,18 @@
 		}
 	, 
 		"Sweet_Dough":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Sweet Dough",
+			"categories":[
+			
+				"Baking"
+			],
+			"serves":"",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"9 ounces Whole Milk"
@@ -2376,7 +2904,18 @@
 		}
 	, 
 		"Doughnuts":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Doughnuts",
+			"categories":[
+			
+				"Baking"
+			],
+			"serves":"30 doughnuts",
+			"time":"20 minutes prep + 1 3/4 hour resting + 15 minutes frying",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"1 batch Sweet dough rested for 1 hour"
@@ -2406,7 +2945,18 @@
 		}
 	, 
 		"Charcutiere_Sauce":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Charcutiere Sauce",
+			"categories":[
+			
+				"Sauces"
+			],
+			"serves":"4",
+			"time":"25 minutes",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"2 tbsp butter"
@@ -2444,7 +2994,18 @@
 		}
 	, 
 		"Chicago_Biscuits":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Chicago (3-1-2) Biscuits",
+			"categories":[
+			
+				"Baking"
+			],
+			"serves":"about 1 dozen biscuits for 250g flour",
+			"time":"20 minutes prep + 30 baking",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"3 parts flour"
@@ -2478,7 +3039,18 @@
 		}
 	, 
 		"Spaghetti_Carbonara":{
+			"sling:resourceType":"/apps/knf/recipe",
 			"title":"Spaghetti Carbonara",
+			"categories":[
+			
+				"Pasta"
+			],
+			"serves":"2",
+			"time":"",
+			"pictures":[
+			
+			],
+
 			"ingredients":[
 				
 		"200g Sphaghetti"

@@ -25,8 +25,12 @@
 //	  -	 http://jackrabbit.apache.org/node-type-notation.html
 //
 
-<my = 'http://namespace.com/my'>
-
-[my:node] > nt:unstructured
-	- title (string)
-	- description (string)
+<knf = 'http://knifeandfork.ca/knf'>
+	
+[knf:recipe] > nt:unstructured
+	- title (string) primary
+	- categories (string) multiple
+	- serves (string)
+	- pictures (string) multiple
+	- ingredients (string) multiple
+	- directions (string) multiple
