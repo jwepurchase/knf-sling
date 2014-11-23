@@ -8,12 +8,15 @@
 	<c:when test="${resource.path eq '/content/knifeandfork/recipes' }">
 		<c:set var="indexActive" value="active"/>
 	</c:when>
+	<c:when test="${resource.path eq '/content/knifeandfork/landing' }">
+		<c:set var="homeActive" value="active"/>
+	</c:when>
 </c:choose>
 
 <div class="navigation">
 	<ul class="nav nav-pills">
-		<li class="presentation">
-			<a href="#">
+		<li class="presentation ${homeActive}">
+			<a href="/content/knifeandfork/landing.html">
 				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 				<span>Home</span>
 			</a>
