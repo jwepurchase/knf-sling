@@ -5,15 +5,11 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import javax.servlet.jsp.PageContext;
-import javax.servlet.jsp.tagext.SimpleTagSupport;
-
-import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
-public class RecipeListTag extends SimpleTagSupport {
+public class RecipeListTag extends SlingTag {
 	
 	private String var;
 	
@@ -43,11 +39,6 @@ public class RecipeListTag extends SimpleTagSupport {
 	
 	public void setVar(String var) {
 		this.var = var;
-	}
-	
-	protected final SlingHttpServletRequest getRequest() {
-		PageContext context = (PageContext) getJspContext();
-		return (SlingHttpServletRequest) context.getRequest();
 	}
 
 }

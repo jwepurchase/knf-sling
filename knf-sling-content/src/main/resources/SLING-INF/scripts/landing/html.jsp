@@ -30,7 +30,7 @@
           <img src="${feature.pictures[0]}" alt="${feature.title}">
           <div class="container">
             <div class="carousel-caption">
-              <h1><a href="/content/knifeandfork/recipes/BBQ_Pork_Ribs.html">Recipe:<c:out value="${feature.title}"/></a></h1>
+              <h1><a href="/content/knifeandfork/recipes/BBQ_Pork_Ribs.html"><c:out value="${feature.title}"/></a></h1>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
           <img src="${feature.pictures[0]}" alt="${feature.title}">
           <div class="container">
             <div class="carousel-caption">
-              <h1><a href="/content/knifeandfork/recipes/Croissant.html">Recipe:<c:out value="${feature.title}"/></a></h1>
+              <h1><a href="/content/knifeandfork/recipes/Croissant.html"><c:out value="${feature.title}"/></a></h1>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
           <img src="${feature.pictures[0]}" alt="${feature.title}">
           <div class="container">
             <div class="carousel-caption">
-              <h1><a href="/content/knifeandfork/recipes/Poppy_Seed_Fish">Recipe:<c:out value="${feature.title}"/></a></h1>
+              <h1><a href="/content/knifeandfork/recipes/Poppy_Seed_Fish"><c:out value="${feature.title}"/></a></h1>
             </div>
           </div>
         </div>

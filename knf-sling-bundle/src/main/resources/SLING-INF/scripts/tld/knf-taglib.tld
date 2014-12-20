@@ -7,8 +7,20 @@
 		<tag-class>ca.knifeandfork.tag.RecipeListTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
-			<description>variable name</description>
 			<name>var</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	<tag>
+		<name>valueMap</name>
+		<tag-class>ca.knifeandfork.tag.ValueMapTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>path</name>
 			<required>true</required>
 		</attribute>
 	</tag>
