@@ -1,0 +1,1 @@
+var knfApp = angular.module("knfApp", []);

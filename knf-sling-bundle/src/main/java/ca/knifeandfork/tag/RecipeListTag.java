@@ -11,12 +11,13 @@ import org.apache.sling.api.resource.ValueMap;
 
 public class RecipeListTag extends SlingTag {
 	
+	public static final String RECIPE_LIST_URI = "/content/knifeandfork/recipes";
 	private String var;
 	
 	@Override
 	public void doTag() {
 		ResourceResolver resRes = getRequest().getResourceResolver();
-		Iterator<Resource> i = resRes.getResource("/content/knifeandfork/recipes").listChildren();
+		Iterator<Resource> i = resRes.getResource(RECIPE_LIST_URI).listChildren();
 		LinkedList<Resource> recipeList = new LinkedList<Resource>();
 		while(i.hasNext()) {
 			recipeList.add(i.next());
