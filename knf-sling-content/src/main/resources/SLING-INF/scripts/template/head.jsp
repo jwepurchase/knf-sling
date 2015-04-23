@@ -20,6 +20,7 @@
 	<![endif]-->
 	
 	<!-- AngularJS -->
-	<script src="/etc/angular/js/angular.min.js" type="text/javascript"></script>
+	<script src="/etc/angular/js/angular-1.3.14/angular.min.js" type="text/javascript"></script>
+	<script src="/etc/angular/js/angular-1.3.14/angular-route.min.js" type="text/javascript"></script>
 
 </head>

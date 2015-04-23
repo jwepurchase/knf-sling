@@ -1,4 +1,12 @@
-knfApp.controller("recipeEditorController", function($scope, $http) {
+knfApp.controller("ListRecipesController", function($scope, $http){
+	$scope.message = "Recipe List";
+});
+
+knfApp.controller("ViewRecipeController", function($scope) {
+	$scope.message = "View Recipe";
+});
+
+knfApp.controller("EditRecipeController", function($scope, $http) {
 	function getUrlParam(name) {
 		return decodeURIComponent((new RegExp('[?|&]' + name +'=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 	}
@@ -32,9 +40,9 @@ knfApp.controller("recipeEditorController", function($scope, $http) {
 				for(var i = 0; i < propArray.length; i++) {
 					result += key + "=" + propArray[i] + "&";
 				}
-//				if (propArray.length > 1) {
-//					result += key +"@TypeHint=String[]&";
-//				}
+				if (propArray.length > 1) {
+					result += key +"@TypeHint=String[]&";
+				}
 			}
 		}
 		
@@ -56,12 +64,36 @@ knfApp.controller("recipeEditorController", function($scope, $http) {
 		}
 	}
 	
+	function initializeEmptyArray(array) {
+		if (typeof array === 'undefined'){
+			array = [];
+		}
+		
+		if (array.length == 0 ){
+			array.push("");
+		}
+		return array;
+	}
+	
 	var recipePath = getUrlParam('recipe');
-	$http.get("/content/knifeandfork/recipes/" + recipePath + ".json")
+	$http.get(recipePath + ".json")
 		.success(function (response){
 			console.log(JSON.stringify(response));
 			$scope.recipe = response;
+			$scope.recipe.pictures = initializeEmptyArray($scope.recipe.pictures);
+			$scope.recipe.ingredients = initializeEmptyArray($scope.recipe.ingredients);
+			$scope.recipe.directions = initializeEmptyArray($scope.recipe.directions);
+			$scope.recipe.categories = initializeEmptyArray($scope.recipe.categories);
 		});
+	
+	$scope.defaultList = function(listName) {
+		if (typeof this.recipe[listName] === 'undefined') {
+			this.recipe[listName] = [];
+			this.recipe[listName].push('');
+		} else if (this.recipe[listName].length == 0) {
+			this.recipe.push('');
+		}
+	}
 	
 	$scope.addPicture = function() {
 		addElement($scope.recipe.pictures);
@@ -87,7 +119,7 @@ knfApp.controller("recipeEditorController", function($scope, $http) {
 		removeElement($scope.recipe.directions);
 	};
 	$scope.update = function() {
-		var url = "http://localhost:8080/content/knifeandfork/recipes/" + getUrlParam('recipe');
+		var url = getUrlParam('recipe');
 		var data = serializeForm($scope.recipe);
 		console.log("Params");
 		console.log(data);
